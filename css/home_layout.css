@@ -1,0 +1,204 @@
+html{
+  width:1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width:681px;
+  background: black;
+}
+
+.logo{
+  width: 264px;
+  height: 74px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+.logo img{
+  width: 264px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav{
+  border-top: 2px solid #8F3985;
+  margin-top: 140px;
+  z-index: 2;
+  position: relative;
+
+}
+
+nav ul{
+  margin-left: -15px;
+}
+nav li{
+  display: inline;
+  margin-right: 83px;
+}
+
+nav hr{
+  width:404px;
+  background-color: #8F3985;
+  height: 2px;
+  border: none;
+  position: relative;
+  left: -139px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+  color: #A0C1B9;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: auto 239px;
+  grid-column-gap: 38px;
+  margin-top: 35px;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+}
+
+
+.images div{
+  width :124px;
+  height: 267px;
+}
+
+.main{
+  position: relative;
+}
+/* left picture ------------------ */
+.first{
+  background-image: url(../images/pics/wrap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: filter .09s ease-in-out;
+  z-index: 1;
+}
+.first:hover{
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.txtInside1{
+  position: absolute;
+  transform: rotate(270deg);
+  top: 85px;
+  left: -32px;
+  z-index: 10;
+  pointer-events: none;
+}
+/* --------------------------------------- */
+
+/* center picture ------------------ */
+.second{
+  background-image: url(../images/pics/disk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: filter .09s ease-in-out;
+  z-index: 1;
+}
+.second:hover{
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.txtInside2{
+  position: absolute;
+  transform: rotate(270deg);
+  top: 85px;
+  left: 108px;
+  z-index: 10;
+  pointer-events: none;
+}
+/* --------------------------------------- */
+
+/* right picture ------------------ */
+.third{
+  background-image: url(../images/pics/ball.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: filter .09s ease-in-out;
+  z-index: 1;
+}
+.third:hover{
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.txtInside3{
+  position: absolute;
+  transform: rotate(270deg);
+  top: 85px;
+  left: 248px;
+  z-index: 10;
+  pointer-events: none;
+}
+/* --------------------------------------- */
+
+
+
+.mainBottom{
+  display: grid;
+  grid-template-columns: 124px 474px;
+  grid-column-gap: 70px;
+  margin-top: 54px;
+}
+
+.bts{
+  display: grid;
+  grid-template: 1fr;
+}
+
+.topBT{
+  align-self: start;
+  justify-self: center;
+}
+
+.botBT{
+  align-self: end;
+  justify-self: center;
+}
+
+#contactUs{
+  height: 60px;
+  width:130px;;
+  border: none;
+  border-radius: 5px;
+  background: #FFD166;
+  -webkit-appearance: button;
+  -moz-appearance: none;
+}
+#vc{
+  height: 60px;
+  width:130px;;
+  border: none;
+  border-radius: 5px;
+  background: #FFD166;
+  -webkit-appearance: button;
+  -moz-appearance: none;
+}
+
+.photo{
+  background-image: url(../images/pics/happyBite.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+  height: 141px;
+}

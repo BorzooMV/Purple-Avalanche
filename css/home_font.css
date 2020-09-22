@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Quicksand:wght@300&display=swap');
+/* font-family: 'Cutive Mono', monospace;
+font-family: 'Quicksand', sans-serif; */
+
+nav li {
+  font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
+}
+
+.txt{
+  text-align: center;
+}
+
+.largeMain{
+  font-family: 'Cutive Mono', monospace;
+  color: #A0C1B9;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+
+.shortMain{
+  font-family: 'Cutive Mono', monospace;
+  color: #A0C1B9;
+  font-size: 15px;
+  letter-spacing: -2px;
+  line-height: 15px;
+}
+
+.txt hr{
+  background: #8F3985;
+  height: 2px;
+  width: 115px;
+  border: none;
+}
+
+#contactUs{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+#vc{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.txtInside{
+  font-family: 'Cutive Mono', monospace;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transform: rotate(270deg);
+}
