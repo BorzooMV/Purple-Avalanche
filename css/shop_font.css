@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Quicksand:wght@300&display=swap');
+/* font-family: 'Cutive Mono', monospace;
+font-family: 'Quicksand', sans-serif; */
+
+.nameBox h1{
+  color: #A0C1B9;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 35px;
+  text-transform: uppercase;
+  line-height: 65px;
+  margin-left: 40px;
+
+}
